@@ -4,10 +4,9 @@ namespace Bus\Service\Order;
 
 use Bus\Service\Order\Module\Order;
 use Bus\Service\Order\Module\User;
-use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
-class OrderProvider extends ServiceProvider implements DeferrableProvider
+class OrderProvider extends ServiceProvider
 {
     protected $defer = true;
 
